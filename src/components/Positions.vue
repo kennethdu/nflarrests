@@ -15,7 +15,7 @@ export default {
     msg: String
   },
   mounted() {
-    axios.get(`http:///NflArrest.com/api/v1/position`)
+    axios.get(`https:///NflArrest.com/api/v1/position`)
     .then(response => {
       // JSON responses are automatically parsed.
       console.log(response)
